@@ -1,0 +1,27 @@
+Variable Code,Human-Readable Name,File Name,Function Group,Reasoning,Unnamed: 3
+LBXGH,Glycohemoglobin (%),GHB_L,Metabolic/Glycemic,"HbA1c reflects average blood glucose over months, a direct indicator of dietary lifestyle.",
+LBXIN,Insulin (uU/mL),INS_L,Metabolic/Glycemic,Insulin levels are directly influenced by dietary carbohydrate intake and obesity.,
+LBXGLU,Fasting Glucose (mg/dL),GLU_L,Metabolic/Glycemic,"Fasting glucose is a standard test for diabetes, heavily influenced by diet.",
+LBXSUA,Uric acid (mg/dL),BIOPRO_L,Metabolic/Glycemic,Uric acid levels are increased by high protein diets and alcohol consumption.,
+LBXTLG,Triglyceride (mg/dL),TRIGLY_L,Lipid Panel,"Calorie deficits, dehydration, physical activity, age and alcohol can all impact lipid panels",
+LBDLDLN,"LBDLDLN = 
+ (LBXTC/0.948  – LBDHDD/0.971 – (LBXTR/8.56 + (LBXTR * (LBXTC – LBDHDD))/2140 – LBXTR^2/16100) – 9.44), round 0 decimal places) for LBXTR less than 800 mg/dL, and missing for LBXTR GE 800 mg/dL.
+
+^2 stands for power=2, or squared. 
+LBDHDD from public release file HDL_J",TRIGLY_L,Lipid Panel,"Calorie deficits, dehydration, physical activity, age and alcohol can all impact lipid panels",
+LBDHDD,Direct HDL-Cholesterol (mg/dL),HDL_L,Lipid Panel,"Calorie deficits, dehydration, physical activity, age and alcohol can all impact lipid panels",
+LBXTC,Total Cholesterol (mg/dL),TCHOL_L,Lipid Panel,"Calorie deficits, dehydration, physical activity, age and alcohol can all impact lipid panels",
+LBXHGB,Hemoglobin (g/dL),CBC_L,Blood Count,Hemoglobin levels can be influenced by dietary iron intake and lifestyle factors like smoking.,
+LBXHCT,Hematocrit (%),CBC_L,Blood Count,"Hematocrit is sensitive to hydration status, a key lifestyle factor mentioned in laboratory preparation.",
+LBXWBCSI,White blood cell count (1000 cells/uL),CBC_L,Blood Count,WBC count can be elevated due to smoking and acute physical activity.,
+LBXSBU,Blood Urea Nitrogen (mg/dL),BIOPRO_L,Kidney Function,Urea/BUN is significantly affected by dietary protein intake and hydration.,
+LBXSCR,"Creatinine, refrigerated serum (mg/dL)",BIOPRO_L,Kidney Function,Serum creatinine levels are influenced by muscle mass and high-intensity exercise.,
+LBXSASSI,Aspartate Aminotransferase (AST) (IU/L),BIOPRO_L,Liver Function,AST is a liver enzyme affected by alcohol consumption and obesity-related fatty liver.,
+LBXSATSI,Alanine Aminotransferase (ALT) (IU/L),BIOPRO_L,Liver Function,"ALT is the primary marker for non-alcoholic fatty liver disease (NAFLD), linked to BMI and diet.",
+LBXSAPSI,Alkaline Phosphatase (ALP) (IU/L),BIOPRO_L,Liver Function,ALP levels vary significantly with age and can indicate liver or bone changes driven by lifestyle.,
+LBXSAL,"Albumin, refrigerated serum (g/dL)",BIOPRO_L,Liver Function,Albumin is a marker of chronic nutritional status and inflammation related to lifestyle.,
+LBXSTB,Total Bilirubin (mg/dL),BIOPRO_L,Liver Function,Bilirubin levels can be influenced by fasting and alcohol consumption.,
+LBXSGTSI,Gamma Glutamyl Transferase (GGT) (IU/L),BIOPRO_L,Liver Function,GGT is a sensitive marker for alcohol intake and metabolic syndrome.,
+LBXVIDMS,25-hydroxyvitamin D2 + D3,VID_L,Micronutrient Status,Vitamin D levels are directly affected by sun exposure and dietary supplementation.,
+LBXFER,Ferritin(ng/mL),FERTIN_L,Micronutrient Status,Ferritin is an acute-phase reactant and marker of iron stores affected by diet.,
+LBXHSCRP,High-Sensitivity C-Reactive Protein (hs-CRP) (mg/L),HSCRP_L,Inflammatory Marker,hs-CRP is a marker of systemic inflammation often elevated in obesity.,

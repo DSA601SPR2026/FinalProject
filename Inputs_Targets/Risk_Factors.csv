@@ -1,0 +1,34 @@
+Variable Code,Reasoning
+RIAGENDR,Sex influences reference intervals for many tests
+RIDAGEYR,Age is a major factor that influences reference ranges and clinical significance for tests like lipids and ALP.
+RIDEXMON,Seasons cause variations in tsh and vitamin d
+DBD100,Dietary sodium intake is a lifestyle factor that influences renal function tests
+DRQSPREP,Dietary sodium intake is a lifestyle factor that influences renal function tests
+DR1TKCAL,Total calorie intake is a key lifestyle factor influencing metabolic lab results.
+DR1TPROT,"High dietary protein can increase uric acid and urea levels, impacting renal function tests."
+DR1TCARB,Carbohydrate intake is a lifestyle factor affecting glycemic markers and triglyceride levels.
+DR1TSUGR,Sugar consumption is a dietary factor linked to altered glycemic control markers.
+DR1TTFAT,Total fat intake is a dietary factor that directly influences the lipid profile
+DR1TCAFF,Caffeine consumption is a lifestyle factor that can influence physiological measurements and lab tests.
+DR1_320Z,Hydration status affects the concentration of blood parameters like hematocrit and electrolytes.
+DR2TKCAL,Total calorie intake is a key lifestyle factor influencing body weight and metabolic lab results.
+DR2TPROT,"High dietary protein can increase uric acid and urea levels, impacting renal function tests."
+DR2TCARB,Carbohydrate intake is a lifestyle factor affecting glycemic markers and triglyceride levels.
+DR2TSUGR,Sugar consumption is linked to metabolic syndrome and altered glycemic control markers.
+DR2TTFAT,Total fat intake is a dietary factor that directly influences the lipid profiles
+DR2TCHOL,Dietary cholesterol intake is a lifestyle factor affecting serum lipid levels.
+DR2_320Z,Hydration status (water intake) affects the concentration of blood parameters like hematocrit and electrolytes.
+BMXBMI,"Body Mass Index is a primary indicator of obesity, a lifestyle-related cause of abnormal LFTs and metabolic syndrome."
+ALQ121,Alcohol consumption is a key lifestyle factor that causes liver damage and affects liver function tests.
+ALQ130,Alcohol consumption is a key lifestyle factor that causes liver damage and affects liver function tests.
+PAD790Q,Physical activity alters biochemical parameters and metabolic health.
+PAD800,Physical activity alters biochemical parameters and metabolic health.
+PAD810Q,Physical activity alters biochemical parameters and metabolic health.
+PAD680,Physical activity alters biochemical parameters and metabolic health.
+SLQ300,Sleep can impact blood sugar regulation
+SLQ310,Sleep can impact blood sugar regulation
+SLD012,Sleep can impact blood sugar regulation
+DPQ030,Sleep can impact blood sugar regulation
+SMQ040,Smoking is a major modifiable lifestyle factor that increases cardiovascular risk and alters lab results.
+SMD641,Smoking is a major modifiable lifestyle factor that increases cardiovascular risk and alters lab results.
+SMDANY,Use of tobacco products impacts cardiometabolic health markers.
